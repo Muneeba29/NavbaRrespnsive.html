@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*backgroung image*/
+        body {
+            background-image: url(https://static.wixstatic.com/media/c837a6_02de7d4c43d44b7b890854049ed75da8f000.jpg/v1/fill/w_987,h_840,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/c837a6_02de7d4c43d44b7b890854049ed75da8f000.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            background-position: center;
+
+        }
+
+        /*navbar*/
+        header {
+            display: flex;
+            margin-top: 20px;
+            margin: auto;
+            left: 0%;
+            right: 0%;
+            height: 91;
+            width: 80%;
+            justify-content: space-between;
+
+        }
+
+        /*first div*/
+        .logo {
+            font-weight: bold;
+            font-size: x-large;
+        }
+
+        /*second div*/
+        .list {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        /*3 list items*/
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        a:hover {
+            color: orange;
+        }
+
+        /*4th list item button*/
+        button {
+            color: white;
+
+            background-color: black;
+            border-radius: 5px;
+            width: 108px;
+            height: 30px;
+
+
+        }
+
+        button:hover {
+            background-color: white;
+            color: grey;
+        }
+
+        /*2 quotes*/
+        .main {
+            width: 900px;
+            margin: auto;
+            left: 0%;
+            right: 0%;
+            text-align: center;
+
+        }
+
+        /*1st para quote*/
+        .para1 {
+            font-weight: 100;
+            font-size: 80px;
+            width: 980;
+            height: 192;
+            margin-top: 150px;
+
+
+        }
+
+        /*2nd para quote*/
+        .para2 {
+            font-size: 30px;
+            width: 820;
+            height: 43.19;
+            margin-top: 20px;
+
+        }
+
+        @media only screen and (max-width:768px) {
+            a {
+                display: none;
+            }
+
+            button {
+                margin-left: 520px;
+            }
+
+
+            .para1 {
+                font-size: 70px;
+            }
+
+            .para2 {
+                font-size: 30px;
+            }
+
+        }
+
+        @media only screen and (max-width:320px) {
+
+            .logo {
+                font-weight: bold;
+                font-size: 30px;
+            }
+
+            .main {
+                margin: auto;
+                left: 0%;
+                right: 0%;
+                width: 460px
+            }
+
+            button {
+                margin-left: 150px;
+                font-size: 22px;
+                padding: 5px;
+                height: 38px;
+                width: 120px;
+            }
+
+            .para1 {
+                font-size: 36px;
+            }
+
+            .para2 {
+                font-size: 25px;
+
+            }
+
+        }
+    </style>
+</head>
+<!--navbar-->
+<header>
+
+    <!--first div-->
+    <div class="logo">AUTONO</div>
+
+    <!-- second div-->
+    <div class="list">
+
+        <!--  /*3 list items*/-->
+        <a href="#">Technology</a>
+        <a href="#">About</a>
+        <a href="#">Career</a>
+        <!--4th list item button-->
+        <button>Subscribe</button>
+
+    </div>
+</header>
+<!--2 quotes-->
+<div class="main">
+
+    <!--1st para quote-->
+    <div class="para1">THE FUTURE OF<br /> MOBILITY IS HERE</div>
+
+    <!--2nd para quote-->
+    <div class="para2">Discover the safest self driving expereience with autono </div>
+</div>
+
+<body>
+
+</body>
+
+</html>
